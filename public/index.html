@@ -1,115 +1,637 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <title>Johnny Los MedX</title>
+    <!-- meta character set -->
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Johnny Lo's MEDX </title>
+    <!-- Meta Description -->
+    <meta name="description" content="Blue One Page Creative HTML5 Template">
+    <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+IconsAcme|Amatic+SC|Fredericka+the+Great" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Pacifico|Satisfy|Cabin|Gentium+Basic" rel="stylesheet">
-    <link href="main.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+		================================================== -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/slit-slider.css">
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Modernizer Script for old Browsers -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
 
 </head>
 
-<body>
+<body id="body">
 
-    <a href="#" class="enter">ENTER</a>
-    <div class="page">
-        <div class="main">
-            <div class="parallax-container" id= "houseImg">
-                <div class="parallax">
-                  <img src="img/house.png">
-                  <div class="carddiv">
-                      <h4 class = "fancyHeadline"> Packages </h4>
-                      </section>
-                  </div>
-                </div>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="loder-box">
+            <div class="battery"></div>
+        </div>
+    </div>
+    <!-- end preloader -->
+
+    <!--
+        Fixed Navigation
+        ==================================== -->
+    <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+                <!-- /responsive nav button -->
+
+                <!-- logo -->
+                <h1 class="navbar-brand">
+						<a href="#body">Johnny Lo's</a>
+					</h1>
+                <!-- /logo -->
             </div>
 
-            <div class="section">
-                <div class="row container">
-                    <h2 class="header">Parallax</h2>
-                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-                </div>
-            </div>
-            <div class="parallax-container">
-                <div class="parallax">
-                    <img src="img/redrock.jpg">
-                </div>
-            </div>
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <ul id="nav" class="nav navbar-nav">
+                    <li><a href="#body">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#portfolio">Ammenities</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#price">Book Your Stay</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- /main nav -->
+
         </div>
-        <div class="section">
-        </div>
-        <div class="parallax-container">
-            <div class="parallax">
-                <img src="img/camping.jpg">
-                <div class="carddiv">
-                    <section class="storyText container">
-                        <h2> Ya </h2>
-                    </section>
-                    <section class="container" <p> We have a brand new surround sound movie theater/bar area. It’s equipped with high speed internet and a 60-inch smart TV. We have a wide selection of today’s DVD’s, as well as, an awesome music system to help you relax. We offer HBO
-                        and HBO on Demand if you want to chill and catch up on some of your favorite series or movies. There is always music playing here at Johnny Lo’s Medx. It’s a great way to start or finish the day. You won’t be disappointed!
-                        </p>
-                    </section>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-        </div>
-        <div class="parallax-container">
-            <div class="parallax">
-                <img src="img/breakfast.png">
-                <div class="carddiv">
-                    <h4 class = "fancyHeadline"> Packages </h4>
-                    </section>
-                </div>
-            </div>
-        </div>
+    </header>
+    <!--
+        End Fixed Navigation
+        ==================================== -->
+
+    <main class="site-content" role="main">
+
+
+        <section id="home-slider">
+            <div id="slider" class="sl-slider-wrapper">
+
+                <div class="sl-slider">
+
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+
+                        <div class="bg-img bg-img-1"></div>
 
 
 
+                    </div>
+                </div>
 
-        <footer class="page-footer">
+                <!-- <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a href="javascript:;" class="sl-prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                    </a>
+                    <a href="javascript:;" class="sl-next">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                    </a>
+                </nav> -->
+
+
+                <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+                    <span class="nav-dot-current"></span>
+                    <span></span>
+                    <span></span>
+                </nav>
+
+            </div>
+            <!-- /slider-wrapper -->
+        </section>
+
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+
+        <!-- about section -->
+        <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text">Links</h5>
+                    <center>
+                    <div class="col-md-10 col-md-offset-1 wow animated fadeInRight">
+                      <img src="img/housepics/badge.png" id="badge">
+                        <div class="welcome-block">
+
+                            <h3>Welcome To Johnny Lo's MEDEX</h3>
+                            <div class="message-body">
+
+                                <p>We are one of the marijuana friendly hotels in Denver. As a marijuana friendly bed and breakfast in Denver, we offer marijuana dispensary tours, marijuana education classes in Denver and a micro-brew tour. Johnny Lo’s Medx
+                                    (marijuana education destination escape) is a part-time marijuana friendly bed and breakfast style retreat in Denver. If you book one of our “almost all inclusive” packages, you will be given access to sample some of
+                                    Colorado’s best marijuana from the best recreational dispensaries in town, get to take a marijuana dispensary tour in Denver, and go through helpful marijuana education classes in Denver that are fun, quick, and worth
+                                    their weight in gold! Do all or none, it’s your excape! We are excited you’ve discovered us and hope you plan a trip to our facility soon. </p>
+                            </div>
+                            <a href="#" class="btn btn-border btn-effect pull-right">Read More</a>
+                        </div>
                     </div>
                 </div>
+                </center>
             </div>
-            <div class="footer-copyright">
+
+        </section>
+        <!-- end about section -->
+
+
+        <!-- Service section -->
+        <section id="service">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center">
+                        <h2 class="wow animated bounceInLeft">Services</h2>
+                        <p class="wow animated bounceInRight"> Key Features of Johnny Lo's MEDX </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <!-- <i class="fa fa-home fa-3x"></i> -->
+                                <img src="img/icons/hand.png" height="50px" width="50px">
+                            </div>
+                            <h3>Atmosphere</h3>
+                            <p> We have worked hard to create a comfortable atmosphere that rivals all of the best marijuana friendly hotels in Denver.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="img/icons/suitcase.png" height="50px" width="50px">
+                            </div>
+                            <h3>Lodging</h3>
+                            <p> We have incredible food, cozy rooms, an outdoor bar, a hammock, and great company. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="img/icons/weedicon.png" height="50px" width="50px">
+                            </div>
+                            <h3> Education </h3>
+                            <p>Our goal is to provide our guests with straightforward, understandable information regarding all of the benefits that marijuana has to offer. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="img/icons/mountain.png" height="50px" width="50px">
+                            </div>
+
+                            <h3>Become A Local</h3>
+                            <p> Sample some of Colorado’s best marijuana from the best recreational dispensaries in town, and explore marijuana dispensary tours in Denver.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end Service section -->
+
+        <!-- portfolio section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Ammenities</h2>
+                        <p>There is always music playing here at Johnny Lo’s Medx. It’s a great way to start or finish the day. You won’t be disappointed!</p>
+                    </div>
+
+
+                    <ul class="project-wrapper wow animated fadeInUp">
+                        <li class="portfolio-item">
+                            <img src="img/housepics/frontyardsquare.jpg" class="img-responsive" alt="You'll Love Your Stay At Johhny Lo's">
+                            <figcaption class="mask">
+                                <h3>Your Stay</h3>
+                                <p>See Inside of Johnny Lo's.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Lodging" data-fancybox-group="works" href="img/housepics/frontyard.jpg"><i class="fa fa-search"></i></a></li>
+
+                                <a class="fancybox" title="Lodging"  data-fancybox-group="works" href="img/housepics/frontyard2.jpg"></a>
+
+                                <a class="fancybox" title="Lodging" data-fancybox-group="works" href="img/housepics/frontyard3.jpg"></a>
+
+                                <a class="fancybox" title="Lodging" data-fancybox-group="works" href="img/housepics/frontyard4.jpg"></a>
+
+                                <a class="fancybox" title="Kitchen" data-fancybox-group="works" href="img/housepics/kitchen1.jpg"></a>
+
+                                <a class="fancybox" title="Kitchen" data-fancybox-group="works" href="img/housepics/kitchen2.jpg"></a>
+
+                                <a class="fancybox" title="Living Room" data-fancybox-group="works" href="img/housepics/living2.jpg"></a>
+
+                                <a class="fancybox" title="Living Room" data-fancybox-group="works" href="img/housepics/living3.jpg"></a>
+
+                                <a class="fancybox" title="Bedroom 1" data-fancybox-group="works" href="img/housepics/bedroom1.JPG"></a>
+
+                                <a class="fancybox" title="Bedroom 2" data-fancybox-group="works" href="img/housepics/bedroom2.jpg"></a>
+
+                                <a class="fancybox" title="Bathrooms" data-fancybox-group="works" href="img/housepics/bathroom.jpg"></a>
+
+                                <a class="fancybox" title="Indoor Bar - The bar converts to a poker/roulette/crap table if you feel like playing a little" data-fancybox-group="works" href="img/housepics/indoorbar.jpg"></a>
+
+                                <a class="fancybox" title="Movie Room - We have a brand new surround sound movie theater/bar area. It’s equipped with high speed internet and a 60-inch smart TV. " data-fancybox-group="works" href="img/housepics/movieroom1.jpg"></a>
+
+                                <a class="fancybox" title="Happy Guests" data-fancybox-group="works" href="img/housepics/stairs.jpg"></a>
+
+                            </ul>
+                        </li>
+
+                        <li class="portfolio-item">
+                            <img src="img/housepics/relaxsquare.png" class="img-responsive" alt="Added features for your stay ">
+                            <figcaption class="mask">
+                                <h3>House Features</h3>
+                                <p> Additional Features for Your Stay </p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="You're here to relax" href="img/housepics/relax.png" data-fancybox-group="works"><i class="fa fa-search"></i></a></li>
+                                <li><a href=""><i class="fa fa-link"></i></a></li>
+
+                                <a class="fancybox" title="Yard Games - We have two regulation size horseshoe pits, so bring your “a-game”" data-fancybox-group="works" href="img/housepics/horseshoes.png"></a>
+
+                                <a class="fancybox" title="Free Coffee Each Morning" data-fancybox-group="works" href="img/housepics/coffee.png"></a>
+
+                                <a class="fancybox" title="Breakfast Made Just For You" data-fancybox-group="works" href="img/housepics/breakfast.png"></a>
+
+                                <a class="fancybox" title="Collector Cars" data-fancybox-group="works" href="img/housepics/johncar1.jpg"></a>
+
+                                <a class="fancybox" title="Bikes Available to Explore the City" data-fancybox-group="works" href="img/housepics/bike.png"></a>
+
+                                <a class="fancybox" title="Enjoy cocktails of your choice" data-fancybox-group="works" href="img/housepics/cocktails.png"></a>
+
+                                <a class="fancybox" title="Get a Work Out In At Johnny Lo's personal gym" data-fancybox-group="works" href="img/housepics/gym1.jpg"></a>
+                            </ul>
+                        </li>
+
+                        <li class="portfolio-item">
+                            <img src="img/housepics/santefeartsquare.png" class="img-responsive" alt="You’ll love how close everything is to you. ">
+                            <figcaption class="mask">
+                                <h3>Our Location</h3>
+                                <p>Everything you really want to do in Denver is within a mile or two of our establishment.  </p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="The Sante Fe Arts District is 1/4 mile away. First Friday's are they best kept secret" data-fancybox-group="works" href="img/housepics/santefeart.png"><i class="fa fa-search"></i></a></li>
+                                <li><a href=""><i class="fa fa-link"></i></a></li>
+
+                                <a class="fancybox" title="Red Rocks Amplitheatre is around 30 minutes away." data-fancybox-group="works" href="img/housepics/redrocks.png"></a>
+
+                                <a class="fancybox" title="If you’re heading up to the mountains to do some boarding / skiing as part of your “excape” we are only an hour away from four amazing resorts (A-Basin, Keystone, Breckenridge and Copper)." data-fancybox-group="works" href="img/housepics/abasin.png"></a>
+                            </ul>
+                        </li>
+
+                        <li class="portfolio-item">
+                            <img src="img/housepics/hikingsquare.png" class="img-responsive" alt="Explore All Of What Denver Has To Offer">
+                            <figcaption class="mask">
+                                <h3>Explore Denver</h3>
+                                <p> Activities Galore</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="World Class Hiking - Don’t worry about the little things. We have lots of items available for you to use on your outings including picnic baskets, blankets, coolers, water bottles, and backpacks" data-fancybox-group="works" href="img/housepics/hiking.png"><i class="fa fa-search"></i></a></li>
+
+                                  <a class="fancybox" title="Denver has become known as the 'Napa Valley of Beer' - on any given day, more beer is brewed in Denver than in any other city in the U.S. We'll give you our 2 cents about which ones to try first" data-fancybox-group="works" href="img/housepics/breweries.png"></a>
+
+                                <li><a href=""><i class="fa fa-link"></i></a></li>
+                                  <a class="fancybox" title="We have a couple bikes that are free to use if you want for a few hours each day. There is also an awesome bike program here in Denver where you can rent a bike for a day, or the entire weekend. They come with locks, baskets, and you can return them at a number of different locations throughout Denver when you are done. The weather here is always beautiful. Get out and enjoy it!" data-fancybox-group="works" href="img/housepics/bikingdowntown.png"></a>
+
+                                <a class="fancybox" title="Cherry Creek Shopping Center is the Rocky Mountain region's premier fashion destination with over 160 specialty boutiques and less than 10 minutes away" data-fancybox-group="works" href="img/housepics/shopping.png"></a>
+
+                               <a class="fancybox" title="From the vast plains east of Denver to the snowcapped peaks to the west, Colorado is blessed with an extraordinary landscape, perfect for dramatic golf courses. Just tell us where you want to go and we'll get you there!" data-fancybox-group="works" href="img/housepics/golfing.png"></a>
+
+                               <a class="fancybox" title="Catch a game, and we'll drive you there!" data-fancybox-group="works" href="img/housepics/broncos.png"></a>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="portfolio-item">
+                            <img src="img/housepics/tourthecitysquare.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry." height = "100px">
+                            <figcaption class="mask">
+                                <h3>Marijuana Education</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/housepics/tourthecity.png"><i class="fa fa-search"></i></a></li>
+                                <li><a href=""><i class="fa fa-link"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <!-- end portfolio section -->
+
+        <!-- Testimonial section -->
+        <section id="testimonials" class="parallax">
+            <div class="overlay">
                 <div class="container">
-                    © 2014 Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    <div class="row">
+
+                        <div class="sec-title text-center white wow animated fadeInDown">
+                            <h2>What people say</h2>
+                        </div>
+
+                        <div id="testimonial" class=" wow animated fadeInUp">
+                            <div class="testimonial-item text-center">
+                                <img src="img/potweed.png" alt="Our Clients">
+                                <div class="clearfix">
+                                    <span>Jack Hopkins - Austin, TX </span>
+                                    <p>Free visit to the finest microbreweries in Denver was the surprise addition. We got to treat our taste buds with some fine beers and not to forget the ambiance of Johnny Lo's Medx. It was simply great.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item text-center">
+                                <img src="img/potweed.png" alt="Our Clients">
+                                <div class="clearfix">
+                                    <span>Cody D - Ft. Worth TX</span>
+                                    <p>First impression of the property was that it was Very clean and tidy. John went out of his way to make us feel at home, he was very easy to contact. He gave us a quick tour of the house and then showed us around the area which was very helpful since none of us had ever been to Denver. Every morning John had the most amazing breakfast ready for us, the breakfast alone made staying here worth it.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item text-center">
+                                <img src="img/potweed.png" alt="Our Clients">
+                                <div class="clearfix">
+                                    <span>Robert B - Bronx, NY </span>
+                                    <p>John accommodated 9 guys for a bachelor party without any trouble. Everyone was comfortable, delicious breakfast in the morning, and expert horseshoe training. He gave us all the places to go and the people to speak to. You couldn't run into a friendlier guy or a better host. I'll be back the next time I'm in the area</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </footer>
-    </div>
+        </section>
+        <!-- end Testimonial section -->
 
 
+        <!-- Price section -->
+        <section id="price">
+            <div class="container">
+                <div class="row">
 
-    <!-- / Content of page -->
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Packages</h2>
+                        <p> Book Your Stay With Options!</p>
+                    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <script src="jquery.lettering.js"></script>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+                    <div class="col-md-4 wow animated fadeInUp">
+                        <div class="price-table text-center">
+                            <span>"Not So Basic"</span>
+                            <div class="value">
+                                <span>$</span>
+                                <span>260.00</span><br>
+                                <span>per day</span>
+                            </div>
+                            <ul>
+                                <li>Lodging (2-4 people)</li>
+                                <li>A hearty breakfast served each morning</li>
+                                <li>Welcome sampler</li>
+                                <li>Mini Micro-Brew Tour</li>
+                                <li>“Say Goodnight Gracie” which is a 1-hour individual lavender or eucalyptus sea salt soak in our private jacuzzi tub</li>
+                                <li><a href="#">Book</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+                    <div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.4s">
+                        <div class="price-table featured text-center">
+                            <span>Gold</span>
+                            <div class="value">
+                                <span>$</span>
+                                <span>50,00</span><br>
+                                <span>month</span>
+                            </div>
+                            <ul>
+                                <li>Free Trial</li>
+                                <li>Free Trial</li>
+                                <li>Free Trial</li>
+                                <li>Free Trial</li>
+                                <li><a href="#">sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.8s">
+                        <div class="price-table text-center">
+                            <span>Diamond</span>
+                            <div class="value">
+                                <span>$</span>
+                                <span>123,12</span><br>
+                                <span>month</span>
+                            </div>
+                            <ul>
+                                <li>All Bonus Points</li>
+                                <li>All Bonus Points</li>
+                                <li>All Bonus Points</li>
+                                <li>All Bonus Points</li>
+                                <li><a href="#">sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end Price section -->
+        <section id="testimonials" class="parallax">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="sec-title text-center white wow animated fadeInDown">
+                              <h2> Things To Do </h2>
+                        </div>
+
+                        <div id="testimonial" class=" wow animated fadeInUp">
+                            <div class="testimonial-item text-center">
+
+                                <div class="clearfix">
+                                    <span>Katty Flower</span>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item text-center">
+                                <img src="img/member-1.jpg" alt="Our Clients">
+                                <div class="clearfix">
+                                    <span>Katty Flower</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item text-center">
+                                <img src="img/member-1.jpg" alt="Our Clients">
+                                <div class="clearfix">
+                                    <span>Katty Flower</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Testimonial section -->
+
+        <!-- Social section -->
+        <section id="social" class="parallax">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="sec-title text-center white wow animated fadeInDown">
+                            <h2>FOLLOW US</h2>
+                            <p>Beautifully simple follow buttons to help you get followers on</p>
+                        </div>
+
+                        <ul class="social-button">
+                            <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Social section -->
+
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Contact</h2>
+                        <p>Leave a Message</p>
+                    </div>
 
 
+                    <div class="col-md-7 contact-form wow animated fadeInLeft">
+                        <form action="#" method="post">
+                            <div class="input-field">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name...">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email...">
+                            </div>
+                            <div class="input-field">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject...">
+                            </div>
+                            <div class="input-field">
+                                <textarea name="message" class="form-control" placeholder="Messages..."></textarea>
+                            </div>
+                            <button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+                        </form>
+                    </div>
 
+                    <div class="col-md-5 wow animated fadeInRight">
+                        <address class="contact-details">
+								<h3>Contact Us</h3>
+								<p><i class="fa fa-pencil"></i>Phoenix Inc.<span>PO Box 345678</span> <span>Little Lonsdale St, Melbourne </span><span>Australia</span></p><br>
+								<p><i class="fa fa-phone"></i>Phone: (415) 124-5678 </p>
+								<p><i class="fa fa-envelope"></i>website@yourname.com</p>
+							</address>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+        <!-- end Contact section -->
+
+        <section id="google-map">
+            <div id="map-canvas" class="wow animated fadeInUp"></div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="footer-content">
+                    <div class="wow animated fadeInDown">
+                        <p>newsletter signup</p>
+                        <p>Get Cool Stuff! We hate spam!</p>
+                    </div>
+                    <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+                        <div class="input-field">
+                            <input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
+                            <button type="submit" class="submit-icon">
+									<i class="fa fa-paper-plane fa-lg"></i>
+								</button>
+                        </div>
+                    </form>
+                    <div class="footer-social">
+                        <ul>
+                            <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
+                            <li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Essential jQuery Plugins
+		================================================== -->
+    <!-- Main jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Twitter Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Single Page Nav -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <!-- jquery.fancybox.pack -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- Google Map API -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- jquery easing -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Fullscreen slider -->
+    <script src="js/jquery.slitslider.js"></script>
+    <script src="js/jquery.ba-cond.min.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
 </body>
-
 
 </html>
