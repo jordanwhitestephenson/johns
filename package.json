@@ -9,17 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
-  }
-},
+    "express": "^4.15.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+
 "repository": {
   "type": "git",
   "url": "git+https://github.com/jordanwhitestephenson/johns.git"
-},
-
-"dependencies": {
-  "body-parser": "^1.17.1",
-  "express": "^4.15.2",
-  "nodemon": "^1.11.0"
-
+}
 }
