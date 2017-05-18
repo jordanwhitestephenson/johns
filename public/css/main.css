@@ -30,6 +30,7 @@ a {
         -ms-transition: all 0.3s ease-out 0s;
          -o-transition: all 0.3s ease-out 0s;
             transition: all 0.3s ease-out 0s;
+            color: #33ad49;
 }
 
 a, a:hover, a:focus, .btn:focus {
@@ -509,7 +510,7 @@ h1.navbar-brand {
 #about h3 {
     color: #fff;
     margin: 0 0 35px;
-    
+
 }
 
 #about .welcome-block h3 {
@@ -717,7 +718,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(../img/parallax/johnsBackground.jpg);
     padding: 0;
     color: #fff;
 }
@@ -870,6 +871,7 @@ ul.external li a:hover {
     display: block;
     text-transform: uppercase;
 }
+.price-table.featured ul li:last-child, .price-table ul li:last-child:ho
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
@@ -879,6 +881,8 @@ ul.external li a:hover {
 .price-table.featured ul li:last-child a,
 .price-table ul li:last-child:hover a {
     color: #fff;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 1px
 }
 
 
@@ -887,7 +891,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/main2.png);
+    background-image: url(../img/slider/johnsBackground.jpg);
     padding: 0;
 }
 
@@ -928,8 +932,8 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+    color: #33ad49;
+    border: 2px solid #33ad49;
 }
 
 
@@ -1429,4 +1433,17 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+
+#price {
+  background-image: url('../house.png');
+background-size:cover;
+   background-repeat: no-repeat;
+   filter: opacity(0.8);
+}
+
+#price li {
+  color: white;
+  text-shadow: 2px 2px #000;
+
 }
